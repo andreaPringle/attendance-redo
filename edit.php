@@ -66,7 +66,8 @@ $attendee = $crud->getAttendeesDetails($id);
     <small id="telHelp" class="form-text text-muted">We'll never share your contact number with anyone else.</small>
   </div>
   <br/> 
-  <button type="submit" name="submit" class="btn btn-success w-100" >Save Changes</button>
+  <a href="viewrecords.php" class="btn btn-default" > Back to List </a>
+  <button type="submit" name="submit" class="btn btn-success"  >Save Changes</button>
 </form>
 <?php }?>
 <br/> <br/>  
