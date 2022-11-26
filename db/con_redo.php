@@ -1,8 +1,16 @@
 <?php 
-$host="127.0.0.1";
-$db="attendance_redo_db";
-$user="root";
-$pass="";
+//Development connection
+//$host="127.0.0.1";
+//$db="attendance_redo_db";
+//$user="root";
+//$pass="";
+//$charset="utf8mb4";
+
+//Remore Database Connection
+$host="remotemysql.com";
+$db="O9gEeab35R";
+$user="O9gEeab35R";
+$pass="7RapSWKtr3";
 $charset="utf8mb4";
 
 $dsn ="mysql:host=$host;dbname=$db;charset=$charset";
